@@ -1,0 +1,9 @@
+fx_version "cerlean"
+
+Author 'Storm Development'
+Description 'This was made by Storm Development'
+
+files {
+'client.lua'
+'server.lua'
+'config.lua'
