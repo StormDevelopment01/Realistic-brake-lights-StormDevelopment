@@ -1,0 +1,9 @@
+fx_version "cerlean"
+
+Author 'Storm Development'
+Description 'This is a test script'
+
+files {
+'client.lua'
+'server.lua'
+'config.lua'
