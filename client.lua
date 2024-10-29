@@ -59,7 +59,7 @@ end)
 -----------------
 
 local function parkTimer()
-  local time = math.random((Config.parkTimerMin * 3000), Config.parkTimerMax * 3000)
+  local time = math.random((Config.parkTimerMin * 1000), Config.parkTimerMax * 1000)
   local expiration = GetGameTimer() + time
   local vehicle = GetVehiclePedIsIn(PlayerPedId(), false)
   -- local entity = Entity(vehicle)
@@ -124,7 +124,7 @@ local function onEnteredVehicle(_vehicle)
       end
 
       ::continue::
-      Wait(150)
+      Wait(250)
     end
   end)
 end
