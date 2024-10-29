@@ -1,3 +1,15 @@
+local label =
+[[ 
+  //
+  \\                             REALISTIC                    \\
+  //                                     BRAKE                //
+  \\                                          LIGHTS          \\
+  //                        Created by Storm Development      //
+  \\                                                          \\
+]]
+Citizen.Wait( 2000 )
+print( label )
+
 -- client tells server if their vehicle should have brake lights
 RegisterNetEvent("rbl:setBrakeLights")
 AddEventHandler("rbl:setBrakeLights", function(netId, state)
